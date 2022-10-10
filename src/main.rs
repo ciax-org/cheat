@@ -1,7 +1,7 @@
 /* NOTE:
 Thought code in a cheat sheet file online named 'LGR Cheat Sheet' would be nice in one module.
 
-i.e. Let's Get Rusty Version 1.0.7 from these person(s) https://www.youtube.com/c/LetsGetRust
+i.e. Let's Get Rusty Version 1.0.7 from these person(s) https://www.youtube.com/c/LetsGetRusty
 
 Even before knowing much Rust I managed to read and output an Excel spreadsheet how I needed it.
 
