@@ -23,17 +23,17 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - Unicode Char String
 - Tuple
 - Array & Slice
-- HashMap
-- Struct
-- Enum
+- `HashMap`{:.rust}
+- `struct`{:.rust}
+- `enum`{:.rust}
 - Constant
-- Static variable
+- `static`{:.rust} variable
 - Mutability
 - Shadowing
 - Type alias
 
 ### Control Flow
-- if and if let
+- `if`{:.rust} and `if let`{:.rust}
 - loop
 - Nested loops & labels
 - Returning from loops
