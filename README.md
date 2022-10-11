@@ -27,10 +27,10 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - `struct`
 - `enum`
 - Constant
-- `static`{:.rust} variable
+- `static` variable
 - Mutability
 - Shadowing
-- Type alias
+- `type` alias
 
 ### Control Flow
 - `if` and `if let`
@@ -43,14 +43,14 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 
 ### References, Ownership, and Borrowing
 - Creating references
-- Copy, Move, and Clone
+- Copy, `move`, and Clone
 - Ownership and functions
 
 ### Pattern Matching
 - Basics
 - Destructuring
 - Ignoring values
-- Match guards
+- `match` guards
 - `@` bindings
 
 ### Iterators
@@ -73,7 +73,7 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 
 ### Iterating over errors
 - Ignore failed items with `filter_map()`
-- Fail the entire operation with collect()
+- Fail the entire operation with `collect()`
 - Collect all valid values and failures with `partition()`
 
 ### Generics, Traits, and Lifetimes
@@ -81,12 +81,12 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - Defining traits
 - Default implementations with Derive
 - `trait` bounds
-- `impl` trait
+- `impl Trait`
 - `trait` objects
 - Operator overloading
 - Supertraits
 - Lifetimes in function signatures
-- Lifetimes in struct definitions
+- Lifetimes in `struct` definitions
 - `static` lifetimes
 
 ### Functions, Function Pointers & Closures
@@ -98,7 +98,7 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
   - `FnOnce`
   - `FnMut`
   - `Fn`
-- Store closure in struct
+- Store closure in `struct`
 - Function that accepts closure or function pointer
 
 ### Pointers
