@@ -23,9 +23,9 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - Unicode Char String
 - Tuple
 - Array & Slice
-- `HashMap`{:.rust}
-- `struct`{:.rust}
-- `enum`{:.rust}
+- `HashMap`
+- `struct`
+- `enum`
 - Constant
 - `static`{:.rust} variable
 - Mutability
@@ -33,13 +33,13 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - Type alias
 
 ### Control Flow
-- `if`{:.rust} and `if let`{:.rust}
-- loop
+- `if` and `if let`
+- `loop`
 - Nested loops & labels
 - Returning from loops
-- while and while let
-- for loop
-- match
+- `while` and `while let`
+- `for` loop
+- `match`
 
 ### References, Ownership, and Borrowing
 - Creating references
@@ -51,43 +51,43 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - Destructuring
 - Ignoring values
 - Match guards
-- @ bindings
+- `@` bindings
 
 ### Iterators
 - Usage
-- Implementing the Iterator trait
+- Implementing the `Iterator` trait
 
 ### Error Handling
 - Throw unrecoverable error
-- Option enum
-- Result enum
-- ? operator
+- `Option enum`
+- `Result enum`
+- `?` operator
 
 ### Combinators
-- .map
-- .and_then
+- `.map`
+- `.and_then`
 
 ### Multiple error types
 - Define custom error type
 - Boxing errors
 
 ### Iterating over errors
-- Ignore failed items with filter_map()
+- Ignore failed items with `filter_map()`
 - Fail the entire operation with collect()
-- Collect all valid values and failures with partition()
+- Collect all valid values and failures with `partition()`
 
 ### Generics, Traits, and Lifetimes
 - Using generics
 - Defining traits
 - Default implementations with Derive
-- Trait bounds
-- impl trait
-- Trait objects
+- `trait` bounds
+- `impl` trait
+- `trait` objects
 - Operator overloading
 - Supertraits
 - Lifetimes in function signatures
 - Lifetimes in struct definitions
-- Static lifetimes
+- `static` lifetimes
 
 ### Functions, Function Pointers & Closures
 - Associated functions and methods
@@ -95,9 +95,9 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 - Creating closures
 - Returning closures
 - Closure traits
-  - FnOnce
-  - FnMut
-  - Fn
+  - `FnOnce`
+  - `FnMut`
+  - `Fn`
 - Store closure in struct
 - Function that accepts closure or function pointer
 
@@ -107,7 +107,7 @@ None. Added missing glue code so all example cheat sheet Rust code compiles and 
 
 ### Smart pointers
 
-- Box<T>
-- Rc<T>
-- Ref<T>, RefMut<T>, and RefCell<T>
+- `Box<T>`
+- `Rc<T>`
+- `Ref<T>`, `RefMut<T>`, and `RefCell<T>`
 - Multiple owners of mutable data
